@@ -3,6 +3,7 @@ package com.applyzen.applyzen.status;
 import com.applyzen.applyzen.jobapplication.JobApplication;
 import com.applyzen.applyzen.user.User;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.FutureOrPresent;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -21,6 +22,7 @@ public class Status {
     )
     private Long id;
     private String name;
+    @FutureOrPresent(message = "Must be a future or present date and time")
     private LocalDateTime createdAt;
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
