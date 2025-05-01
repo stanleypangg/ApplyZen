@@ -1,6 +1,6 @@
 package com.applyzen.applyzen.mapper;
 
-import com.applyzen.applyzen.dto.UserDto;
+import com.applyzen.applyzen.dto.user.UserDto;
 import com.applyzen.applyzen.user.User;
 import org.springframework.stereotype.Service;
 

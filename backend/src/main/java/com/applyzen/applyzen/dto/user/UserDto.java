@@ -1,4 +1,4 @@
-package com.applyzen.applyzen.dto;
+package com.applyzen.applyzen.dto.user;
 
 import java.time.LocalDateTime;
 
