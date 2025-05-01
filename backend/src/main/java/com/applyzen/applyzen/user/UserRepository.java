@@ -1,2 +1,6 @@
-package com.applyzen.applyzen.user;public interface UserRepository {
+package com.applyzen.applyzen.user;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<Long, User> {
 }
