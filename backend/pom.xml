@@ -58,7 +58,7 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 	</dependencies>
-
+	<!--Add mockito and junit-->
 	<build>
 		<plugins>
 			<plugin>

@@ -40,4 +40,6 @@ public class AuthController {
 
         return ResponseEntity.created(location).body(created);
     }
+
+    // TODO: POST /login and POST /refresh
 }

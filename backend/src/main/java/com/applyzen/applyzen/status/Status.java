@@ -3,10 +3,8 @@ package com.applyzen.applyzen.status;
 import com.applyzen.applyzen.jobapplication.JobApplication;
 import com.applyzen.applyzen.user.User;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.FutureOrPresent;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.PastOrPresent;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
